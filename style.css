@@ -1,4 +1,6 @@
-
+h1{
+    text-align: center;
+}
 .navbar ul {
     list-style-type:none;
     background-color: #5192cf;
@@ -6,21 +8,176 @@
     margin:0px;
     overflow:hidden;
     text-align: center;
-
-
+    justify-content: space-between;
 }
 .navbar li{
     float: left;
+    text-align: center;
 }
 .navbar a{
-    color: black;
+    color: white;
     text-decoration: none;
     padding: 15px;
     display: block;
+    justify-content: center;
     text-align: center;
     font-weight: bolder;
 }
 .navbar a:hover{
     background-color: aliceblue;
+
 }
 
+body {
+    background-color: #0a50a1;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.interest{
+    font-size: 32px;
+    color: aliceblue;
+    margin-left: 1px;
+    margin-right: 1px;
+}
+.team_img{
+    float: left;
+    width: 100%;
+    max-width: 550px;
+    height: auto;
+    
+}
+.bulletptshri{
+    font-size: 16px;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    padding-top: 13%;
+}
+
+
+.bigcontainer{
+    display: flex;
+    
+}
+.column1{
+     
+    column1lefttitle
+    
+}
+.column2{
+    height: 100px; 
+    padding: 10px; 
+    flex: 60%; 
+   
+}
+.bigcontainer1{
+    display: flex;
+    
+}
+.column1left{
+
+    padding: 10px; 
+    flex: 40%;
+}
+.skill{
+    font-size: 32px;
+    color: aliceblue;
+    margin-left: 1px;
+    margin-right: 1px;
+}
+.itineraryimg{
+    float: left;
+    width: 100%;
+    max-width: 550px;
+    height: auto;
+}
+.column1right{
+ 
+    padding: 10px; 
+    flex: 60%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.appdescription{    
+    font-size: 16px;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 5%;
+
+
+}
+.bigcontainer2{
+    display: flex;
+    
+}
+.column2left{
+    padding: 10px; 
+    flex: 40%;
+}
+.fun{
+    font-size: 32px;
+    color: aliceblue;
+    margin-left: 1px;
+    margin-right: 1px;
+}
+.characterimghandyman{
+    float: left;
+    width: 100%;
+    max-width: 550px;
+    height: auto;
+}
+.column2right{
+    padding: 10px; 
+    flex: 60%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.handymandescription{
+    font-size: 16px;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 5%;
+}
+.leftcont{
+    padding: 10px; 
+    flex: 40%;
+}
+.design{
+    font-size: 32px;
+    color: aliceblue;
+    margin-left: 1px;
+    margin-right: 1px;
+}
+.eggimg{
+    float: left;
+    width: 100%;
+    max-width: 550px;
+    height: auto;
+}
+.rightcont{
+    padding: 10px; 
+    flex: 60%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.designdescription{
+    font-size: 16px;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 5%;
+}
