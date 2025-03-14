@@ -34,6 +34,19 @@ body {
     color: white;
     font-family: Arial, Helvetica, sans-serif;
 }
+.maincont{
+    display: flex;
+    padding: 10px;
+}
+
+.shriflagimg{
+    float: left;
+    width: 200px;
+    height: 200px;
+    max-width: 550px;
+    height: auto;
+}
+
 .interest{
     font-size: 32px;
     color: aliceblue;
